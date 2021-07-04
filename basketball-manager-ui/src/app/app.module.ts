@@ -12,12 +12,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { SideNavComponent } from './core/components/side-nav/side-nav.component';
+import { TeamsComponent } from './pages/teams/teams.component';
+import { PlayersComponent } from './pages/players/players.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SideNavComponent
+    SideNavComponent,
+    TeamsComponent,
+    PlayersComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,
