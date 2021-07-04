@@ -15,6 +15,7 @@ import { SideNavComponent } from './core/components/side-nav/side-nav.component'
 import { TeamsComponent } from './pages/teams/teams.component';
 import { PlayersComponent } from './pages/players/players.component';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { InfoComponent } from './pages/info/info.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ScheduleComponent } from './pages/schedule/schedule.component';
     SideNavComponent,
     TeamsComponent,
     PlayersComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
